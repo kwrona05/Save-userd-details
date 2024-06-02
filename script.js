@@ -8,7 +8,7 @@ const paragraph = document.querySelector('.jobParagraph');
 const btnSubmit = document.querySelector('.submit');
 
 function saveDetails() {
-    header.innerText = nameInput.value + surrnameInput.value
+    header.innerText = nameInput.value + ' ' + surrnameInput.value
     paragraph.innerText = jobInput.value
 };
 
