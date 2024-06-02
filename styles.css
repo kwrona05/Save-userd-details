@@ -1,4 +1,41 @@
 * {
     box-sizing: border-box;
+    margin: 0 auto;
 }
 
+body {
+    background-color: #A9A9A9;
+}
+
+.inputs {
+    display: grid;
+    gap: 10px;
+    padding-top: 150px;
+}
+
+.text {
+    font-size: large;
+}
+
+.submit {
+    font-size: large;
+}
+
+.details {
+    display: grid;
+    background-color: white;
+    width: 25%;
+}
+
+.container {
+    display: grid;
+    gap: 40px;
+}
+
+p {
+    font-size: 22px;
+}
+
+h1 {
+    font-size: 36px;
+}
